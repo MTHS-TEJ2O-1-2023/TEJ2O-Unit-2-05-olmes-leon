@@ -1,3 +1,4 @@
+
 /* Copyright (c) 2020 MTHS All rights reserved
  *
  * Created by: Olmes
@@ -8,10 +9,8 @@
 // variable or a random number
 
 let temperature: number
-
 basic.clearScreen()
 basic.showIcon(IconNames.Happy)
-
 input.onButtonPressed(Button.A, function () {
 
     temperature = input.temperature() + 273.15
